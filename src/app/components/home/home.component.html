@@ -1,0 +1,50 @@
+<p-panel header="Lección 1 Botones con Primefaces y Angular ">
+    <p> Bienvenidos a la Leccion 1 de Primefaces y Angular 8! </p>
+    <p-footer>
+        <button pButton type="button" icon="pi pi-plus" label="Nuevo" class="ui-button-info" style="margin-right: .25em"></button>
+        <button pButton type="button" icon="pi pi-search" label="Ver" class="ui-button-success"></button>
+    </p-footer>
+    
+</p-panel>
+<p-accordion>
+    <p-accordionTab header="Componente de Botones">
+        <p-button label="Click"></p-button>
+        <p-button icon="pi pi-check" label="Click"></p-button>
+        <p-button icon="pi pi-check" iconPos="right" label="Click"></p-button>
+        <p-button icon="pi pi-check"></p-button>
+        <p-button icon="pi pi-check" [disabled]="true" label="Disabled"></p-button>
+        
+    </p-accordionTab>
+    <p-accordionTab header="Botones de directivas">
+        <button pButton type="button"label="Click"></button>
+        <button pButton type="button" icon="pi pi-check" label="Click"></button>
+        <button pButton type="button" icon="pi pi-check" iconPos="right" label="Click"></button>
+        <button pButton type="button" icon="pi pi-check"></button>
+        <button pButton type="button" icon="pi pi-check" [disabled]="true" label="Disabled"></button>
+    </p-accordionTab>
+    <p-accordionTab header="Botones de Alerta">
+        <button pButton type="button" label="Primary"></button>
+        <button pButton type="button" label="Secondary" class="ui-button-secondary"></button>
+        <button pButton type="button" label="Success" class="ui-button-success"></button>
+        <button pButton type="button" label="Info" class="ui-button-info"></button>
+        <button pButton type="button" label="Warning" class="ui-button-warning"></button>
+        <button pButton type="button" label="Danger" class="ui-button-danger"></button>     
+    </p-accordionTab>
+    <p-accordionTab header="Botones de Alerta">
+        <button pButton type="button" label="Primary" class="ui-button-raised"></button>
+        <button pButton type="button" label="Secondary" class="ui-button-raised ui-button-secondary"></button>
+        <button pButton type="button" label="Success" class="ui-button-raised ui-button-success"></button>
+        <button pButton type="button" label="Info" class="ui-button-raised ui-button-info"></button>
+        <button pButton type="button" label="Warning" class="ui-button-raised ui-button-warning"></button>
+        <button pButton type="button" label="Danger" class="ui-button-raised ui-button-danger"></button>
+        
+    </p-accordionTab>
+    <p-accordionTab header="Botones con esquinas redondeadas">
+        <button pButton type="button" label="Primary" class="ui-button-rounded"></button>
+        <button pButton type="button" label="Secondary" class="ui-button-rounded ui-button-secondary"></button>
+        <button pButton type="button" label="Success" class="ui-button-rounded ui-button-success"></button>
+        <button pButton type="button" label="Info" class="ui-button-rounded ui-button-info"></button>
+        <button pButton type="button" label="Warning" class="ui-button-rounded ui-button-warning"></button>
+        <button pButton type="button" label="Danger" class="ui-button-rounded ui-button-danger"></button>
+    </p-accordionTab>
+</p-accordion>
