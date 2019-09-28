@@ -1,9 +1,9 @@
-# Leccion1
-En esta lección aprendera a crear una aplicacion con angular, aprendera a incluir los componente de PrimefacesNG
+# Lección 1
+En esta lección aprendera a crear una aplicacion con angular, aprendera a incluir los componente de PrimefacesNG dentro de un proyecto angular y aprendera a crear componentes con angular
 
 # Importante
 
-Cada lección va incluye una explicación en PDF, bajela y siga los pasos, use este proyecto en base de corrección, ya esta probado.
+Cada lección incluye una explicación en PDF bajelo y siga los pasos, use este proyecto en base de corrección, ya esta probado.
 
 # Requerimientos de desarrollo
 
@@ -51,7 +51,7 @@ Ejecute `ng test` para testear la aplicación via [Karma](https://karma-runner.g
 
 Ejecute `ng e2e`  para testear la aplicacione end-to-end via [Protractor](http://www.protractortest.org/).
 
-## Further help
+## Para conseguir Ayuda
 
 Para obtener mas ayuda en angular Angular CLI ejecute `ng help` o visite el sitio el blog:
 
