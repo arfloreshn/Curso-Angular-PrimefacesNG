@@ -1,27 +1,58 @@
 # Leccion1
+En esta lección aprendera a crear una aplicacion con angular, aprendera a incluir los componente de PrimefacesNG
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.6.
+# Importante
 
-## Development server
+Cada lección va incluye una explicación en PDF, bajela y siga los pasos, use este proyecto en base de corrección, ya esta probado.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+# Requerimientos de desarrollo
+
+  1.- Tener instalado Node 10
+  2.- Tener instalado VisualStudio Code
+  3.- Tener instalado TypeScripts en VisualStudioCode.
+  4.- Tener instalado angular.
+
+# Detalles de la aplicación
+
+Este proyecto esta generado con [Angular CLI](https://github.com/angular/angular-cli) version 8.3.6.
+
+## Levantar la aplicacion angular
+
+Ejecute `ng serve -o`  en su computadora para ejecutar la aplicacion angular
+su aplicacion se abrira en su navegar en la siguiente direccion `http://localhost:4200/`. 
 
 ## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Ejecute los posible comandos de angular
+
+`ng generate component component-name` para crear un componente. 
+
+Tambien puede usar `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+
+El modo abreviado de comandos angular son:
+`ng g c <nombre del componente>
+ng g d <nombre de directiva>
+ng g s <nombre de servicio>
+ng g i <nombre de interfas>
+ng g m <nombre de modulo>`
 
 ## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+Ejecute `ng build` para construir una aplicacion en producción. 
+Los archivo binarios de distribución de la aplicacion estaran en el directorio`dist/` directory. 
 
-## Running unit tests
+Ejecute <ng bulid --prod>  para enviar a produccion su aplicación angular.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Ejecutar pruebas unitarias
 
-## Running end-to-end tests
+Ejecute `ng test` para testear la aplicación via [Karma](https://karma-runner.github.io).
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+## Ejecutar pruebas totales
+
+Ejecute `ng e2e`  para testear la aplicacione end-to-end via [Protractor](http://www.protractortest.org/).
 
 ## Further help
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+Para obtener mas ayuda en angular Angular CLI ejecute `ng help` o visite el sitio el blog:
+
+Blog: (https://github.com/angular/angular-cli/blob/master/README.md).
